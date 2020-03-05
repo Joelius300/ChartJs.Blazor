@@ -47,16 +47,7 @@ Delta updates result in an animation to the new value instead of a complete redr
     </PackageReference>
   </ItemGroup>
 
-    <ItemGroup>
-        <None Update="ChartJS\BarChart\Axes\ExtendedCartesianAxes.tt">
-            <Generator>TextTemplatingFileGenerator</Generator>
-            <LastGenOutput>ExtendedCartesianAxes.cs</LastGenOutput>
-        </None>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Compile Update="ChartJS\BarChart\Axes\ExtendedCartesianAxes.cs">
-        <DependentUpon>ExtendedCartesianAxes.tt</DependentUpon>
-      </Compile>
-    </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChartJs.CSharp\ChartJs.CSharp.csproj" />
+  </ItemGroup>
 </Project>

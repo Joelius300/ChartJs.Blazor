@@ -1,6 +1,6 @@
-﻿@using ChartJs.Blazor.ChartJS.BubbleChart
+﻿@using ChartJs.BubbleChart
 @using ChartJs.Blazor.Charts
-@using ChartJs.Blazor.Util
+@using ChartJs.Util
 
 <h1>Bubble Chart</h1>
 <div class="row">
@@ -20,11 +20,11 @@
         {
             Options = new BubbleOptions
             {
-                Title = new ChartJS.Common.Properties.OptionsTitle
+                Title = new Common.Properties.OptionsTitle
                 {
                     Display = true,
                     Text = new[] { "Simple Bar Chart", "with two lines of title" },
-                    FontStyle = ChartJS.Common.Enums.FontStyle.Italic
+                    FontStyle = Common.Enums.FontStyle.Italic
                 }
             }
         };
