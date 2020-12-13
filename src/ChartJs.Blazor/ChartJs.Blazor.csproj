@@ -10,6 +10,7 @@
     <Authors>Marius Muntean,Joelius300</Authors>
     <Description>Chart.js charts for Blazor. Compatible with client-side and server-side Blazor applications.</Description>
     <RepositoryUrl>https://github.com/mariusmuntean/ChartJs.Blazor</RepositoryUrl>
+    <PackageId>ChartJs.Blazor.Fork</PackageId>
     <PackageProjectUrl>https://github.com/mariusmuntean/ChartJs.Blazor</PackageProjectUrl>
     <PackageTags>Chart.js Blazor ASP.NET-Core wasm</PackageTags>
     <PackageSummary></PackageSummary>
